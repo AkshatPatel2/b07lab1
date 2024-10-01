@@ -12,10 +12,8 @@ public class Polynomial {
 
     // no-argument constructor
     public Polynomial(){
-        coff = new double[1];
-        coff[0] = 0;
-        exp = new int[1];
-        exp[0] = 0;
+        coff = new double[0];
+        exp = new int[0];
     }
 
     // new constructor with 2 arguments.
